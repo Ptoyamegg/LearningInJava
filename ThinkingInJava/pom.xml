@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>LearningInJava</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>xyz.dyk</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ThinkingInjava</artifactId>
+    <artifactId>ThinkingInJava</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>net.mindview</groupId>
-            <artifactId>util</artifactId>
+            <artifactId>ThinkingInJava</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/TinkingInJava.jar</systemPath>
+            <systemPath>${project.basedir}/lib/ThinkingInJava.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>xom</groupId>
@@ -36,5 +36,16 @@
                 </includes>
             </resource>
         </resources>
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.8.0</version>-->
+<!--                <configuration>-->
+<!--                    <source>1.8</source>  &lt;!&ndash;language level&ndash;&gt;-->
+<!--                    <target>1.8</target>  &lt;!&ndash;java compiler version&ndash;&gt;-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
     </build>
 </project>

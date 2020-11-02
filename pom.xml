@@ -4,14 +4,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>xyz.dyk</groupId>
     <artifactId>LearningInJava</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>ThinkingInJava</module>
         <module>CoreJavaVolume</module>
     </modules>
 
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>${java.version}</source>  <!--language level-->
+                    <target>${java.version}</target>  <!--java compiler version-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -9,6 +9,8 @@ class Annoyance extends Exception{}
 
 class Sneeze extends Annoyance{}
 
+class OtherSneeze extends Annoyance{}
+
 public class Human {
     public static void main(String[] args) {
         //  Catch the exact type:

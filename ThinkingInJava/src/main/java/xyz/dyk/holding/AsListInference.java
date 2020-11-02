@@ -28,8 +28,8 @@ public class AsListInference {
                 new Light(),new Heavy()
         );
         //  Compiler says:
-        //  found    :java.xyz.dyk.util.List<Powder>
-        //  required :java.xyz.dyk.util.List<Snow>
+        //  found    :java.util.List<Powder>
+        //  required :java.util.List<Snow>
         //  Collections.addAll() doesn't get  confused:
         List<Snow> snow3 = new ArrayList<Snow>();
         Collections.addAll(snow3,new Light(),new Heavy());

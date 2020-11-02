@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Controller {
-    // A class from java.xyz.dyk.util to hold Event Objects:
+    // A class from java.util to hold Event Objects:
     private List<Event> eventList = new ArrayList<Event>();
     public void addEvent(Event c){eventList.add(c);}
     public void run(){
