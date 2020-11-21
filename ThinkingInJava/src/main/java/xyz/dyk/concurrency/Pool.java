@@ -1,6 +1,6 @@
 package xyz.dyk.concurrency;
 //  Using a Semaphore inside a Pool, to restrict
-//  the number of tasks that can use a resource.
+//  the number of tasks that can use a xyz.dyk.resource.
 
 import java.util.ArrayList;
 import java.util.List;

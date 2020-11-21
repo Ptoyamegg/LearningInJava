@@ -1,5 +1,5 @@
 package xyz.dyk.exceptions;
-//  Guaranteeing proper cleanup of a resource.
+//  Guaranteeing proper cleanup of a xyz.dyk.resource.
 
 /**
  * @author PhotoYamEgg

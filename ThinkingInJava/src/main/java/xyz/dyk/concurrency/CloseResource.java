@@ -1,5 +1,5 @@
 package xyz.dyk.concurrency;
-//  Interrupting a blocked task by closing the underlying resource.
+//  Interrupting a blocked task by closing the underlying xyz.dyk.resource.
 //  {RunByHand}
 
 import java.io.InputStream;

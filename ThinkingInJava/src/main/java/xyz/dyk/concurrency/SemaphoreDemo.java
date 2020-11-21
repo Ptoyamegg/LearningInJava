@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-//  A task to check a resource out of a pool:
+//  A task to check a xyz.dyk.resource out of a pool:
 class CheckoutTask<T> implements Runnable {
     private static int counter = 0;
     private final int id = counter++;
