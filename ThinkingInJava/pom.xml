@@ -28,13 +28,13 @@
 
     <build>
         <resources>
-            <xyz.dyk.resource>
+            <resource>
                 <directory>lib</directory>
                 <targetPath>/BOOT-INF/lib/</targetPath>
                 <includes>
                     <include>**/*.jar</include>
                 </includes>
-            </xyz.dyk.resource>
+            </resource>
         </resources>
 <!--        <plugins>-->
 <!--            <plugin>-->

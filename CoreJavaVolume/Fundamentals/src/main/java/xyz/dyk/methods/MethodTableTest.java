@@ -1,7 +1,6 @@
 package xyz.dyk.methods;
 
 import java.lang.reflect.Method;
-import java.time.LocalDate;
 
 public class MethodTableTest {
     public static void main(String[] args) throws Exception {

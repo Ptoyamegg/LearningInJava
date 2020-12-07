@@ -14,6 +14,7 @@ public class TimerTest {
         JOptionPane.showMessageDialog(null,"Quit program?");
     }
 }
+
 class TimePrinter implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
