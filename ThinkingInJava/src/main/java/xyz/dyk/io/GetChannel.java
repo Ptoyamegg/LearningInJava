@@ -1,5 +1,5 @@
 package xyz.dyk.io;
-//  Getting channels from streams
+//  Getting channels from xyz.dyk.streams
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

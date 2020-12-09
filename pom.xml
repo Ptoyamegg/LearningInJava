@@ -12,6 +12,7 @@
     <modules>
         <module>ThinkingInJava</module>
         <module>CoreJavaVolume</module>
+        <module>EffectiveJava</module>
     </modules>
 
     <properties>
