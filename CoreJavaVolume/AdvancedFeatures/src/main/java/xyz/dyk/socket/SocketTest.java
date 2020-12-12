@@ -1,4 +1,4 @@
-package xyz.dyk.chapter4.socket;
+package xyz.dyk.socket;
 
 import java.io.IOException;
 import java.net.Socket;

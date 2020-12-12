@@ -1,4 +1,4 @@
-package xyz.dyk.chapter4.server;
+package xyz.dyk.server;
 
 import java.io.*;
 import java.net.ServerSocket;

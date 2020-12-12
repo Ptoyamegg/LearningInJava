@@ -1,4 +1,4 @@
-package xyz.dyk.chapter4.inetAddress;
+package xyz.dyk.inetAddress;
 
 import java.io.IOException;
 import java.net.InetAddress;

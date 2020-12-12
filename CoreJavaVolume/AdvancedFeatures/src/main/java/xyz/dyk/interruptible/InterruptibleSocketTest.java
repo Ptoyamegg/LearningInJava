@@ -1,4 +1,4 @@
-package xyz.dyk.chapter4.interruptible;
+package xyz.dyk.interruptible;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +17,14 @@ import java.util.Scanner;
  * This program shows how to interrupt a scket channel.
  */
 public class InterruptibleSocketTest {
-
+    public static void main(String[] args) {
+        EventQueue.invokeLater(() -> {
+            JFrame frame = new InterruptibleSocketFrame();
+            frame.setTitle("InterruptibleSocketTest");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+        });
+    }
 }
 
 class InterruptibleSocketFrame extends JFrame {
@@ -66,7 +73,7 @@ class InterruptibleSocketFrame extends JFrame {
                 try {
                     connectBlocking();
                 } catch (Exception e2) {
-                    messages.append("\nInterruptibleSokcetTest.connectBlocking: " + e2);
+                    messages.append("\nInterruptibleSocketTest.connectBlocking: " + e2);
                 }
             });
             connectThread.start();
@@ -85,7 +92,7 @@ class InterruptibleSocketFrame extends JFrame {
     }
 
     /**
-     * Connects to the test server, useing interruptible I/O.
+     * Connects to the test server, using interruptible I/O.
      *
      * @throws IOException
      */

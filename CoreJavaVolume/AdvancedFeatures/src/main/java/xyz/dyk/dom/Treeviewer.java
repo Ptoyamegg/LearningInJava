@@ -1,4 +1,4 @@
-package xyz.dyk.chapter3.dom;
+package xyz.dyk.dom;
 
 import org.w3c.dom.CharacterData;
 import org.w3c.dom.*;

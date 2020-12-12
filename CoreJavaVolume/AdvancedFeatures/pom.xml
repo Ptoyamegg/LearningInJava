@@ -11,11 +11,13 @@
 
     <artifactId>AdvancedFeatures</artifactId>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>chapter1</module>
-        <module>chapter2</module>
-    </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

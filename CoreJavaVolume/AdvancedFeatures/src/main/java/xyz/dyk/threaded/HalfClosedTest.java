@@ -1,4 +1,4 @@
-package xyz.dyk.chapter4.threaded;
+package xyz.dyk.threaded;
 
 import java.io.IOException;
 import java.io.PrintWriter;
