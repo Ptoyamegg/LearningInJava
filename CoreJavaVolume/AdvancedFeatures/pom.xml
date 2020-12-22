@@ -24,6 +24,20 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.15</version>
         </dependency>
+        <dependency>
+            <groupId>xyz.dyk</groupId>
+            <artifactId>authAction</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/action.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>xyz.dyk</groupId>
+            <artifactId>authLogin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/login.jar</systemPath>
+        </dependency>
     </dependencies>
 
 </project>
