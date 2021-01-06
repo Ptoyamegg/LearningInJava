@@ -13,6 +13,7 @@
         <module>ThinkingInJava</module>
         <module>CoreJavaVolume</module>
         <module>EffectiveJava</module>
+        <module>DSAAInJava</module>
     </modules>
 
     <properties>

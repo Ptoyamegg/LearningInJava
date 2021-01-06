@@ -29,7 +29,7 @@ public class Parcel2 {
         p.ship("Tasmania");
         Parcel2 q = new Parcel2();
         // Defining references to inner classes:
-        Contents c = q.contents();
-        Destination d = q.to("Borneo");
+        Parcel2.Contents c = q.contents();
+        Parcel2.Destination d = q.to("Borneo");
     }
 }
