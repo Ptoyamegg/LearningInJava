@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class InstrumentedSet<E> extends ForwardingSet<E> {
     private int addCount = 0;
+    private int a[] = null;
 
     public InstrumentedSet(Set<E> s) {
         super(s);
